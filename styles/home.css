@@ -221,3 +221,47 @@
 .home .success-in-action > ul .character {
   position: absolute;
 }
+
+.navbar-login {
+  justify-items: center;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.navbar .container-fluid {
+  justify-items: space-between;
+  align-items: center;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar-nav.me-auto .nav-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1180px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
+}
+
+@media (min-width: 390px) {
+}
+
+@media (max-width: 650px) and (min-width: 390px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+  .social-links {
+    display: none;
+  }
+}
