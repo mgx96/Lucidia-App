@@ -207,7 +207,7 @@ body.curse::before {
 .navbar .navbar-nav .nav-item .nav-link::after {
   display: block;
   content: '';
-  position: absolute;
+  /* position: absolute; */
   border-bottom: 2px solid #b28539;
   left: 0;
   bottom: 0;
@@ -937,4 +937,57 @@ END: logged-in user information section in navigation
 
 .desert-advert .player-status {
   margin-top: 28px;
+}
+
+.navbar-login {
+  justify-items: center;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.navbar .container-fluid {
+  align-items: center;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar-nav.me-auto .nav-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: none;
+}
+
+@media only screen and (max-width: 1180px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
+}
+
+@media (min-width: 390px) {
+}
+
+@media (max-width: 650px) and (min-width: 390px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav.me-auto .nav-item {
+    flex-direction: column;
+  }
+  .navbar .container-fluid {
+    align-items: flex-start;
+  }
 }
